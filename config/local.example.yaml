@@ -1,0 +1,4 @@
+# Copy this file to config/local.yaml for machine-specific, non-secret overrides.
+# Keep credentials in environment variables or an untracked dotenv file.
+host: 127.0.0.1
+port: 9900

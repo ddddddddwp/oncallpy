@@ -1,0 +1,14 @@
+{
+  "change": "add-multi-agent-aiops",
+  "phase": "design",
+  "mode": "compact",
+  "canonical_spec": "openspec",
+  "generated_by": "ast-handoff.sh",
+  "context_hash": "27412e9284090f3e99832d4443e34b386fd7610501ce8518e2c56c657aa84ef3",
+  "files": [
+    { "path": "openspec/changes/add-multi-agent-aiops/proposal.md", "sha256": "69c91b6a64955a15ee0191b61f2da5962dcc59236303eaffc43e528acf435578" },
+    { "path": "openspec/changes/add-multi-agent-aiops/design.md", "sha256": "f54e6515ea6476be1f08835354ea05b38ffb78761093997f8ffa8fc613cf0a3e" },
+    { "path": "openspec/changes/add-multi-agent-aiops/tasks.md", "sha256": "8c0744a22e9a5be775d95fdd920c77c8bdb322ca53f78c0a54049f37f4fd1a74" },
+    { "path": "openspec/changes/add-multi-agent-aiops/specs/multi-agent-aiops/spec.md", "sha256": "e7b518108e10fb814ddd851bac8276b4d141647da7577c788854ed38cbc23da4" }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "text": "华为逆变器说明",
+    "profile": "chat",
+    "expected_intents": [],
+    "expected_filter_subset": {"manufacturer": "huawei", "device_type": "inverter"},
+    "llm_expected": false
+  },
+  {
+    "text": "华为逆变器告警怎么排查、处理并验证？",
+    "profile": "aiops",
+    "expected_intents": ["troubleshooting", "resolution", "verification"],
+    "expected_filter_subset": {"document_type": "runbook", "manufacturer": "huawei", "device_type": "inverter"},
+    "llm_expected": true
+  },
+  {
+    "text": "Modbus 寄存器地址 40001 功能码 03 是什么？",
+    "profile": "protocol",
+    "expected_intents": [],
+    "expected_filter_subset": {"document_type": "protocol", "protocol_type": "modbus", "register_address": "40001", "function_code": "03"},
+    "llm_expected": false
+  }
+]
